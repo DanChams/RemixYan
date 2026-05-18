@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Project": {
+      "title": "Project",
+      "description": "Un projet de design ou packaging",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "status": { "type": "string" },
+        "description": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "pdfUrl": { "type": "string" },
+        "threeDUrl": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "details": {
+          "type": "object",
+          "properties": {
+            "client": { "type": "string" },
+            "date": { "type": "string" },
+            "role": { "type": "string" }
+          }
+        }
+      },
+      "required": ["title", "category", "imageUrl"]
+    }
+  },
+  "firestore": {
+    "projects": {
+      "schema": "Project",
+      "description": "Liste globale des projets"
+    }
+  }
+}
