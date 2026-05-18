@@ -15,7 +15,7 @@ export default function Navbar() {
           className="flex items-center gap-4"
         >
           <img 
-            src="/src/assets/images/yanone_logo_lavender_1779020855814.png" 
+            src="/images/yanone_logo_lavender_1779020855814.png" 
             alt="Yan + One Logo" 
             className="h-8 md:h-10 w-auto object-contain"
             referrerPolicy="no-referrer"

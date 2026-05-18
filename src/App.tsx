@@ -42,7 +42,7 @@ export default function App() {
       <section className="relative h-[60vh] overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img 
-            src="/src/assets/images/cosmetics_hero_yanone_1779020159754.png" 
+            src="/images/cosmetics_hero_yanone_1779020159754.png" 
             className="w-full h-full object-cover"
             alt="Hero Background"
             referrerPolicy="no-referrer"
