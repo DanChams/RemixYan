@@ -68,7 +68,7 @@ export default function AdminDashboard({ onClose }: { onClose: () => void }) {
           </div>
           <div className="flex items-center gap-4">
             <button 
-              onClick={() => setIsEditing({ title: '', category: 'Packaging', status: 'En cours', imageUrl: '', pdfUrl: '', description: '', details: { client: '', date: '', role: '' } })}
+              onClick={() => setIsEditing({ title: '', category: 'yan+one', status: 'En cours', imageUrl: '', pdfUrl: '', description: '', details: { client: '', date: '', role: '' } })}
               className="flex items-center gap-2 px-6 py-2.5 bg-black text-white rounded-full hover:bg-brand-dark transition-colors text-sm font-bold uppercase tracking-wider"
             >
               <Plus size={18} />
@@ -152,11 +152,10 @@ export default function AdminDashboard({ onClose }: { onClose: () => void }) {
                       value={isEditing.category}
                       onChange={e => setIsEditing({...isEditing, category: e.target.value})}
                     >
-                      <option>Maquillage</option>
-                      <option>Parfum</option>
-                      <option>Soins de la peau</option>
-                      <option>Branding</option>
-                      <option>Packaging</option>
+                      <option>yan+one</option>
+                      <option>Syn&amp;zyn</option>
+                      <option>I❤️M FENNA</option>
+                      <option>Morocain Rituals</option>
                     </select>
                   </div>
                   <div className="space-y-2">
