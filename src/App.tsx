@@ -28,7 +28,7 @@ export default function App() {
     return () => unsubscribe();
   }, []);
 
-  const categories = ['Tous', ...new Set(projects.map(p => p.category))];
+  const categories = ['Tous', 'yan+one', 'Syn&zyn', 'I❤️M FENNA', 'Morocain Rituals'];
 
   const filteredProjects = activeCategory === 'Tous' 
     ? projects 
